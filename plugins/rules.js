@@ -29,7 +29,7 @@ let handler = async (m, { conn }) => conn.send3ButtonImg(m.chat, await (await fe
 Tahulah berterimakasih sebab anda tidak perlu membayar untuk menggunakan bot ini, gunakan secara bijak, jangan berlebihan.
 
 Be a smart user and good luck!
-`.trim(), 'Kebijakan ©2022 By Clara Chan', '⋮☰ Menu', '.menu', 'Owner', '.nowner', 'Donasi', '.donasi', m, {
+`.trim(), 'Kebijakan ©2022 By Kanna Chan', '⋮☰ Menu', '.menu', 'Owner', '.nowner', 'Donasi', '.donasi', m, {
     quoted: m,
     contextInfo: {
         externalAdReply: {
@@ -38,7 +38,7 @@ Be a smart user and good luck!
             description: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`,
             mediaType: 2,
           thumbnail: await (await fetch('https://telegra.ph/file/b412e4dd6391692d975d3.jpg')).buffer(),
-         mediaUrl: `https://www.instagram.com/inizenscuy/`
+         mediaUrl: `https://www.instagram.com/kannachan/`
         }
      }
     })
